@@ -1,0 +1,64 @@
+.ranks {
+    padding: 0px 40px;
+    font-family: "Andale Mono";
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.rank {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid;    
+    background-color: #191919;
+    border-color: #ffffff;
+    display: block;
+    color: black;
+}
+
+.rankLabel {
+    font-family: "Andale Mono";
+    color: white;
+    padding: 10px 50px;
+    font-size: 14px;
+    vertical-align: middle; 
+}
+
+.buttons { 
+  width: 100%;
+  table-layout: auto;
+}
+.buttons button{
+    background: linear-gradient(to right, #090909, #444444);
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    white-space: nowrap;
+    border-radius: 20%;
+    font-family: "Andale Mono";
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+    box-shadow: 0 5px #999;
+}
+.button:hover {
+    background: #eeeeee;
+    color: black;
+} 
+.button:active {
+    box-shadow: 0 2px #999;
+    transform: translateY(4px);
+}
+.button:focus {
+    outline:0;
+}
+.body {
+    background: linear-gradient(to right, #090909, #444444);
+}
+.head {
+    color: #eeeeee;
+    font-family: "Andale Mono";
+    padding: 0px 75px;
+}

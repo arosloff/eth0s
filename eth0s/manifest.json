@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+
+    "name": "eth0s",
+    "description": "We keep you informed so that you can keep you secure.",
+    "version": "1.0",
+
+    "background": {
+        "scripts": [
+            "scripts/lockdown.js"
+        ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_icon": "images/eth0s.png",
+        "default_popup": "eth0s.html"
+    },
+    
+    "permissions": [
+        "tabs",
+        "background",
+        "activeTab",
+        "history",
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+    ]
+}
