@@ -33,7 +33,7 @@ highlight = function() {
 // stats = function() {
 	stat[0] = document.URL.length;
 	stat[1] = special();
-	stat[2] = Math.floor(Math.random());
+	stat[2] = header();
 	chrome.storage.local.set({length: stat[0]}, function() {});
 	chrome.storage.local.set({special: stat[1]}, function() {});
 	chrome.storage.local.set({header: stat[2]}, function() {});
